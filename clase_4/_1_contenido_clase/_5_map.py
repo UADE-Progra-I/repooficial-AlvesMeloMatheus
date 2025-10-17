@@ -1,7 +1,9 @@
-# Usamos la función Map
+# Usamos la función Map ->> funciona como un for
 
 # Dada una lista con las calificaciones de los estudiantes,
 # se requiere redondear sus notas.
+
+"""map(func, iterable)"""
 
 calificaciones = [8, 8.5, 9, 9.75]
 # calificaciones_rounded = round(calificaciones) <<< ERROR
@@ -13,7 +15,19 @@ for calificacion in calificaciones:
 
 print(calificaciones_rounded)
 
+"""list() -> hace un nueva lista """
+
 # Usamos map
 # map (funcion, iterable)
 calificaciones_rounded = list(map(lambda x:round(x), calificaciones))
 print(calificaciones_rounded)
+
+
+# for in
+
+
+"""--------------------------------------------------------------------"""
+
+
+# map()
+

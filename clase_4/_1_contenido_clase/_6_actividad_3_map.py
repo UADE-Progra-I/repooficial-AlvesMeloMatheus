@@ -13,7 +13,10 @@ Dada la lista de temperaturas en °C, obtené una nueva lista
 con las temperaturas en °F, redondeadas a 1 decimal.
 
 Clue: fórmula → F = C * 9/5 + 32 y usá round(valor, 1).
+
 """
+
+
 
 
 # ---------------------------------------------------------------------
@@ -33,3 +36,16 @@ Redondeá a 1 decimal.
 Se solicita normalizar los nombre y apellidos de los estudiantes, de manera
 que todos sus caracteres sean en minúscula, salvo la primer letra.
 """
+
+
+# --------------------------------- ejemplo ----------------------------
+
+calificaciones = [2, 2.3, 4.5, 7]
+
+#                                   -> aqui escojo que varible usar
+calificaciones_int = list(map(lambda calificacion: round(calificacion) , calificaciones))
+print(calificaciones_int)
+
+
+
+
